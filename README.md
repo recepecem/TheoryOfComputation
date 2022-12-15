@@ -38,7 +38,7 @@ or you can just use jflap to convert CFG to PDA
 2019Q1)**A family members (2 parents and 2 children) wants to walk side by side on the road.
 Each parent holds one children’s hand. Both children can be in the middle or on the sides at the
 same time. Design a NFA that accepts all possible walking situations.**
-![answer](https://raw.githubusercontent.com/recepecem/TheoryOfComputation/main/Visa/2013/2019VisaQ1.png)
+![answer](https://raw.githubusercontent.com/recepecem/TheoryOfComputation/main/Visa/2019/2019VisaQ1.png)
 
 2019Q2)**Convert the DFA given below to Regular Expression.
 <pre>
@@ -57,5 +57,8 @@ Lq3 = (aa*b U ba*ba*b)^*€
 Lq3 = (aa*b U ba*ba*b)^*
 
 Lq1 = aLq1 U b((aa*b U ba*ba*b)*)
-Lq1 = a*b((aa*b U ba*ba*b)*)
+Lq1 = a*b(aa*b U ba*ba*b)*
 </pre>
+
+or you can just use jflap to convert DFA to RegEx
+![answer](https://raw.githubusercontent.com/recepecem/TheoryOfComputation/main/Visa/2019/2019VisaQ2.png)
