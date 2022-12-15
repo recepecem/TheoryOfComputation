@@ -1,5 +1,4 @@
 # TheoryOfComputation
-## This repo contains answers to TOC questions located at https://ceng.cu.edu.tr/uorhan/TheoryOfComp.htm
 1)**Yanda verilen DFA modelinin içerikten bağımsız dil gramer kurallarını tanımlayınız.** (*Define the context-free language grammar rules of the DFA model given below*)
 ![answer](https://raw.githubusercontent.com/recepecem/TheoryOfComputation/main/2013VisaQ1.png)
 
