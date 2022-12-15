@@ -39,3 +39,23 @@ or you can just use jflap to convert CFG to PDA
 Each parent holds one children’s hand. Both children can be in the middle or on the sides at the
 same time. Design a NFA that accepts all possible walking situations.**
 ![answer](https://raw.githubusercontent.com/recepecem/TheoryOfComputation/main/Visa/2013/2019VisaQ1.png)
+
+2019Q2)**Convert the DFA given below to Regular Expression.
+<pre>
+Lq1 = aLq1 U bLq3
+Lq2 = aLq2 U bLq1
+Lq3 = aLq1 U bLq2 U €
+
+apply Arden's Theorem
+Lq1 = a^*bLq3
+Lq2 = a^*bLq1
+
+Lq3 = aLq1 U b(a^*bLq1) U €
+Lq3 = a(a^*bLq3) U b(a^*b(a^*bLq3)) U €
+Lq3 = (aa^*b U ba^*ba^*b)Lq3 U €
+Lq3 = (aa^*b U ba^*ba^*b)^*€
+Lq3 = (aa^*b U ba^*ba^*b)^*
+
+Lq1 = aLq1 U b((aa^*b U ba^*ba^*b)^*)
+Lq1 = a^*b((aa^*b U ba^*ba^*b)^*)
+</pre>
