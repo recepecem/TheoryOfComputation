@@ -80,3 +80,6 @@ S: qa$ -> qNBA    A: qa$ -> qNAA    B:  qbB -> qR€
 </pre>
 Above solution was rule-based. Instead you can make it by your mind with ease.
 ![answer](https://raw.githubusercontent.com/recepecem/TheoryOfComputation/main/Visa/2019/2019VisaQ4.png)
+
+F13Q2)**L={1^n0^m1^m | n,m>0} şeklinde tanımlanan dili, tek teypli deterministik Turing makinesiyle ve alfabeye fazladan harf eklemeden tasarlayınız.** (*Design a Turing Machine for language L={1^n0^m1^m | n,m>0} with a single tape deterministic Turing machine and without adding extra letters to the alphabet*)
+![answer](https://raw.githubusercontent.com/recepecem/TheoryOfComputation/main/Final/2013/2013FinalQ2.png)
